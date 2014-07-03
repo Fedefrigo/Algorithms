@@ -8,7 +8,7 @@ for line in list:
         weight, length = [int(x) for x in line.split()]
         jobs.append((weight, length))
 
-criterion = lambda(weight, length): -float(weight)/length
+criterion = lambda(weight, length): weight - length
 
 jobs.sort(key = criterion)
 
