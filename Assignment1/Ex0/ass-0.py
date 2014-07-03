@@ -8,9 +8,12 @@ for line in list:
         weight, length = [int(x) for x in line.split()]
         jobs.append((weight, length))
 
-criterion = lambda(weight, length): weight - length
+criterion1 = lambda(weight, length): -weight
+criterion2 = lambda(weight, length): -(weight - length)
 
-jobs.sort(key = criterion)
+
+jobs.sort(key = criterion1)
+jobs.sort(key = criterion2)
 
 timeline = 0
 sum = 0
