@@ -1,3 +1,11 @@
+'''
+	Greedy Algorithm 0
+
+	@author Federico Rizzardini
+
+'''
+
+
 input = open('jobs.txt')
 
 list = input.readlines()
