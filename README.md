@@ -1,4 +1,4 @@
 Algorithms
 ==========
 
-Algorithms exercises
+Algorithms exercises in python.
