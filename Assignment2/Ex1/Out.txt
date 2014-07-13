@@ -1,0 +1,6 @@
+In order to prevent your PC bursting:
+
+Hamming - Clustering Problem:
+number of points with zero neighbours with <=2 distance 5499
+num clusters 6118
+
